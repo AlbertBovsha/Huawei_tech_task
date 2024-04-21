@@ -1,0 +1,23 @@
+train:
+  num_classes: 10
+  batch_size: 32
+  lr: 1e-4
+  step_size: 5
+  lr_gamma: 0.5
+  epochs: 15
+  valid_every: 1
+  save_every: 1
+
+
+model:
+  name: 'resnet'
+
+output:
+  experiments_root: 'experiments'
+  experiment_name: 'proba'
+
+
+data: 
+  y_hat: 'y_hat_dataset\MNIST\train\y_hats.pt'
+  labels: 'y_hat_dataset\MNIST\train\labels.pt'
+  

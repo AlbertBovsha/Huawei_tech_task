@@ -1,0 +1,17 @@
+test:
+  num_classes: 10
+  batch_size: 1
+ 
+model:
+  name: 'resnet'
+  pretrain: 'experiments\resnet_2024-04-21_16-22-53\checkpoints\epoch_14.pth'
+
+output:
+  experiments_root: 'experiments'
+  experiment_name: 'resnet'
+
+data: 
+  y_hat: 'y_hat_dataset\MNIST\test\y_hats.pt'
+  labels: 'y_hat_dataset\MNIST\test\labels.pt'
+
+  

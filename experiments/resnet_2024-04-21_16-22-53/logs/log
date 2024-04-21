@@ -1,0 +1,78 @@
+2024-04-21 16:22:53,182:INFO: {'train': {'num_classes': 10, 'batch_size': 32, 'lr': 0.0001, 'step_size': 5, 'lr_gamma': 0.5, 'epochs': 15, 'valid_every': 1, 'save_every': 1}, 'model': {'name': 'resnet', 'pretrain': 'C:\\Users\\alber\\Documents\\тг\\03_models\\classification\\crust_type_cls_512_e31.pth'}, 'output': {'experiments_root': 'C:\\Users\\alber\\Desktop\\tech_task_huawei\\experiments', 'experiment_name': 'resnet'}, 'data': 'C:\\Users\\alber\\Desktop\\tech_task_huawei\\y_hat_dataset\\MNIST\\train'}
+2024-04-21 16:22:53,182:INFO: start experiment
+2024-04-21 16:23:08,839:INFO: totaltrainloss = 46.34953308105469
+2024-04-21 16:23:08,839:INFO: lr = 0.0001
+2024-04-21 16:23:13,361:INFO: validation 0/15 epoch: accuracy = 0.95375
+2024-04-21 16:23:13,362:INFO: validation 0/15 epoch: auc = 0.9988820374483757
+2024-04-21 16:23:13,456:INFO: Checkpoint for 0 epoch is saved at C:\Users\alber\Desktop\tech_task_huawei\experiments\resnet_2024-04-21_16-22-53\checkpoints\epoch_0.pth
+2024-04-21 16:23:24,951:INFO: totaltrainloss = 10.435219764709473
+2024-04-21 16:23:24,951:INFO: lr = 0.0001
+2024-04-21 16:23:29,433:INFO: validation 1/15 epoch: accuracy = 0.95
+2024-04-21 16:23:29,438:INFO: validation 1/15 epoch: auc = 0.9988559680302288
+2024-04-21 16:23:29,527:INFO: Checkpoint for 1 epoch is saved at C:\Users\alber\Desktop\tech_task_huawei\experiments\resnet_2024-04-21_16-22-53\checkpoints\epoch_1.pth
+2024-04-21 16:23:41,013:INFO: totaltrainloss = 4.225996494293213
+2024-04-21 16:23:41,013:INFO: lr = 0.0001
+2024-04-21 16:23:45,480:INFO: validation 2/15 epoch: accuracy = 0.96
+2024-04-21 16:23:45,480:INFO: validation 2/15 epoch: auc = 0.9992884191398398
+2024-04-21 16:23:45,573:INFO: Checkpoint for 2 epoch is saved at C:\Users\alber\Desktop\tech_task_huawei\experiments\resnet_2024-04-21_16-22-53\checkpoints\epoch_2.pth
+2024-04-21 16:23:57,066:INFO: totaltrainloss = 2.2829625606536865
+2024-04-21 16:23:57,066:INFO: lr = 0.0001
+2024-04-21 16:24:01,520:INFO: validation 3/15 epoch: accuracy = 0.97125
+2024-04-21 16:24:01,520:INFO: validation 3/15 epoch: auc = 0.9996683479974013
+2024-04-21 16:24:01,612:INFO: Checkpoint for 3 epoch is saved at C:\Users\alber\Desktop\tech_task_huawei\experiments\resnet_2024-04-21_16-22-53\checkpoints\epoch_3.pth
+2024-04-21 16:24:13,301:INFO: totaltrainloss = 0.8580138683319092
+2024-04-21 16:24:13,301:INFO: lr = 0.0001
+2024-04-21 16:24:18,294:INFO: validation 4/15 epoch: accuracy = 0.97625
+2024-04-21 16:24:18,294:INFO: validation 4/15 epoch: auc = 0.9996526954652667
+2024-04-21 16:24:18,432:INFO: Checkpoint for 4 epoch is saved at C:\Users\alber\Desktop\tech_task_huawei\experiments\resnet_2024-04-21_16-22-53\checkpoints\epoch_4.pth
+2024-04-21 16:24:29,939:INFO: totaltrainloss = 0.5643812417984009
+2024-04-21 16:24:29,944:INFO: lr = 5e-05
+2024-04-21 16:24:34,415:INFO: validation 5/15 epoch: accuracy = 0.97625
+2024-04-21 16:24:34,418:INFO: validation 5/15 epoch: auc = 0.9997497839543806
+2024-04-21 16:24:34,507:INFO: Checkpoint for 5 epoch is saved at C:\Users\alber\Desktop\tech_task_huawei\experiments\resnet_2024-04-21_16-22-53\checkpoints\epoch_5.pth
+2024-04-21 16:24:46,003:INFO: totaltrainloss = 0.23976336419582367
+2024-04-21 16:24:46,003:INFO: lr = 5e-05
+2024-04-21 16:24:50,594:INFO: validation 6/15 epoch: accuracy = 0.97625
+2024-04-21 16:24:50,594:INFO: validation 6/15 epoch: auc = 0.9997843057516327
+2024-04-21 16:24:50,715:INFO: Checkpoint for 6 epoch is saved at C:\Users\alber\Desktop\tech_task_huawei\experiments\resnet_2024-04-21_16-22-53\checkpoints\epoch_6.pth
+2024-04-21 16:25:02,208:INFO: totaltrainloss = 0.18650583922863007
+2024-04-21 16:25:02,208:INFO: lr = 5e-05
+2024-04-21 16:25:06,719:INFO: validation 7/15 epoch: accuracy = 0.97625
+2024-04-21 16:25:06,722:INFO: validation 7/15 epoch: auc = 0.9997954396212381
+2024-04-21 16:25:06,819:INFO: Checkpoint for 7 epoch is saved at C:\Users\alber\Desktop\tech_task_huawei\experiments\resnet_2024-04-21_16-22-53\checkpoints\epoch_7.pth
+2024-04-21 16:25:18,311:INFO: totaltrainloss = 0.16448795795440674
+2024-04-21 16:25:18,312:INFO: lr = 5e-05
+2024-04-21 16:25:22,715:INFO: validation 8/15 epoch: accuracy = 0.9775
+2024-04-21 16:25:22,715:INFO: validation 8/15 epoch: auc = 0.9997815834102148
+2024-04-21 16:25:22,798:INFO: Checkpoint for 8 epoch is saved at C:\Users\alber\Desktop\tech_task_huawei\experiments\resnet_2024-04-21_16-22-53\checkpoints\epoch_8.pth
+2024-04-21 16:25:34,296:INFO: totaltrainloss = 0.14881779253482819
+2024-04-21 16:25:34,296:INFO: lr = 5e-05
+2024-04-21 16:25:38,807:INFO: validation 9/15 epoch: accuracy = 0.9775
+2024-04-21 16:25:38,807:INFO: validation 9/15 epoch: auc = 0.9997768363733442
+2024-04-21 16:25:38,918:INFO: Checkpoint for 9 epoch is saved at C:\Users\alber\Desktop\tech_task_huawei\experiments\resnet_2024-04-21_16-22-53\checkpoints\epoch_9.pth
+2024-04-21 16:25:50,425:INFO: totaltrainloss = 0.1177891343832016
+2024-04-21 16:25:50,425:INFO: lr = 2.5e-05
+2024-04-21 16:25:54,966:INFO: validation 10/15 epoch: accuracy = 0.98
+2024-04-21 16:25:54,968:INFO: validation 10/15 epoch: auc = 0.9997928711201451
+2024-04-21 16:25:55,059:INFO: Checkpoint for 10 epoch is saved at C:\Users\alber\Desktop\tech_task_huawei\experiments\resnet_2024-04-21_16-22-53\checkpoints\epoch_10.pth
+2024-04-21 16:26:06,561:INFO: totaltrainloss = 0.11690187454223633
+2024-04-21 16:26:06,561:INFO: lr = 2.5e-05
+2024-04-21 16:26:10,986:INFO: validation 11/15 epoch: accuracy = 0.97875
+2024-04-21 16:26:10,986:INFO: validation 11/15 epoch: auc = 0.9997919217985336
+2024-04-21 16:26:11,080:INFO: Checkpoint for 11 epoch is saved at C:\Users\alber\Desktop\tech_task_huawei\experiments\resnet_2024-04-21_16-22-53\checkpoints\epoch_11.pth
+2024-04-21 16:26:22,586:INFO: totaltrainloss = 0.12292920798063278
+2024-04-21 16:26:22,586:INFO: lr = 2.5e-05
+2024-04-21 16:26:27,048:INFO: validation 12/15 epoch: accuracy = 0.9775
+2024-04-21 16:26:27,050:INFO: validation 12/15 epoch: auc = 0.9997672543245519
+2024-04-21 16:26:27,151:INFO: Checkpoint for 12 epoch is saved at C:\Users\alber\Desktop\tech_task_huawei\experiments\resnet_2024-04-21_16-22-53\checkpoints\epoch_12.pth
+2024-04-21 16:26:38,671:INFO: totaltrainloss = 0.11287456005811691
+2024-04-21 16:26:38,671:INFO: lr = 2.5e-05
+2024-04-21 16:26:43,262:INFO: validation 13/15 epoch: accuracy = 0.97875
+2024-04-21 16:26:43,262:INFO: validation 13/15 epoch: auc = 0.9997819084767636
+2024-04-21 16:26:43,364:INFO: Checkpoint for 13 epoch is saved at C:\Users\alber\Desktop\tech_task_huawei\experiments\resnet_2024-04-21_16-22-53\checkpoints\epoch_13.pth
+2024-04-21 16:26:54,903:INFO: totaltrainloss = 0.08615915477275848
+2024-04-21 16:26:54,903:INFO: lr = 2.5e-05
+2024-04-21 16:26:59,318:INFO: validation 14/15 epoch: accuracy = 0.97625
+2024-04-21 16:26:59,318:INFO: validation 14/15 epoch: auc = 0.9997931225681626
+2024-04-21 16:26:59,415:INFO: Checkpoint for 14 epoch is saved at C:\Users\alber\Desktop\tech_task_huawei\experiments\resnet_2024-04-21_16-22-53\checkpoints\epoch_14.pth
+2024-04-21 16:28:03,523:INFO: Checkpoint for 14 epoch is saved at C:\Users\alber\Desktop\tech_task_huawei\experiments\resnet_2024-04-21_16-22-53\checkpoints\epoch_14.pth
